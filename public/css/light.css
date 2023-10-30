@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 4%;
+}
+body {
+    background: #f6f6f6 !important;
+    font-family: Arial, sans-serif; /* Tipo de fuente para el contenido */  
+}
+nav{
+    padding: 3%;
+}
+.navegacion{
+    text-decoration: none;
+    color: #1a237e;
+}
+.navegacion:hover{
+    color: #ff6600;
+}
+/* HOME */
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.btn-login{
+    color: #1a237e;
+    padding-right: 4%;
+    text-decoration: none;
+}
+.btn-register{
+    color: #1a237e;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-login:hover {
+    color: #ff6600; 
+  }
+.btn-register:hover{
+    color: #ff6600;
+}
+/* LOGIN */
+.login{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.email{
+    margin-bottom: 1%;
+}
+.recuerdame{
+    display: flex;
+    padding: 1%;
+}
+.check{
+    margin-left: 5%;
+}
+.btn-loginaction {
+    background-color: #1a237e; 
+    color: white;  
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+
+/* REGISTER*/
+
+.register{
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.register input{
+    margin-top: 1%;
+}
+.btn-registeraction{
+    margin-top: 1%;
+    background-color: #1a237e; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+/* DASHBOARD */
+.dash-title{
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 2;
+    font-size: 20px;
+}
+.welcome{
+    color: #1a237e;
+    text-align: center;
+}
+.dashboard-user{
+    text-align: center;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    padding: 4px;
+    text-decoration: none;
+    color: #1a237e;
+}
+.links a:hover{
+    color: #ff6600;
+}
+/* settings */
+.form-setting{
+    padding-top: 2%;
+    text-align: center;
+}
+.btn-setting{
+    background-color: #1a237e; 
+    color: white;  
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+/* PROFILE */
+.profile-user{
+    text-align: center;
+}
+.content-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+/* ASIGNATURAS */
+.content-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+.box-asignaturas{
+    display: flex;
+    margin: 2%;
+    justify-content: center;
+}
+.asignatura{
+    width: 40%;
+    border: 2px solid black;
+    margin: 2%;
+}
+.description{
+    padding-left: 1%;
+}
+.asignatura-title{
+    padding-top: 1%;
+    text-align: center;
+}
+.profesor{
+    text-align: center;
+}
+.horas{
+    text-align: center;
+}
+.btn-matricular{
+    background-color: #1a237e; 
+    color: white;  
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+}
+/* NOTAS */
+.notas{
+    display: flex;
+    margin-top: 4%;
+}
+.nameasignatura{
+    width: 50%;
+    padding-left: 4%;
+}
+.nota{
+    width: 40%;
+}
+.sin_notas{
+    padding-top: 5%;
+    text-align: center;
+}
+.linksnotas{
+    padding-top: 5%;
+}

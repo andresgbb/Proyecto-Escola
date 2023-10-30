@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 4%;
+}
+body {
+    background: #f6f6f6 !important;
+    font-family: Arial, sans-serif; /* Tipo de fuente para el contenido */
+   
+    
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+.btn-login{
+    color: #1a237e;
+    padding-right: 4%;
+    text-decoration: none;
+    
+}
+.btn-register{
+    color: #1a237e;
+    text-decoration: none;
+    text-align: center;
+}
+.btn-login:hover {
+    color: #ff6600; 
+  }
+.btn-register:hover{
+    color: #ff6600;
+}
