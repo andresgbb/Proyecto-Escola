@@ -2,7 +2,6 @@
 
     require 'persistence/conexion.php';
     require 'persistence/config.php';
-
     
     //comprobar los campos proporcionados
         if( isset($_POST['name']) && isset($_POST['lastname']) && isset($_POST['email']) &&  isset($_POST['password']) ){
